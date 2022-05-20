@@ -1,9 +1,9 @@
 let pizzaJson = [
-    {id:1, name:'Mussarela', img:'images/pizza.png', price:20.19, sizes:['100g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:2, name:'Calabresa', img:'images/pizza2.png', price:18.00, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:3, name:'Quatro Queijos', img:'images/pizza3.png', price:17.45, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:4, name:'Americana', img:'images/pizza4.png', price:19.77, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:5, name:'Sorvete', img:'images/pizza5.png', price:21.43, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:6, name:'Moda da Casa', img:'images/pizza6.png', price:18.55, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'},
-    {id:7, name:'Chocolate', img:'images/pizza7.png', price:22.36, sizes:['320g', '530g', '860g'], description:'Descrição da pizza em mais de uma linha muito legal bem interessante'}
+    {id: 1, name: 'Mussarela', img: 'images/pizza.png', price: 20.19, sizes: ['100g', '530g', '860g'], description: 'A Pizza de Mussarela é coberta com molho de tomate, queijo tipo mussarela, azeitonas pretas e orégano e massa com fermentação natural, oferece mais sabor e qualidade à sua mesa.Aproveite!' },
+    { id: 2, name: 'Calabresa', img: 'images/pizza2.png', price: 18.00, sizes: ['320g', '530g', '860g'], description: 'É especialmente preparada com recheio generoso de linguiça calabresa de primeira qualidade, queijo muçarela e orégano. A linguiça calabresa agrega um sabor único e levemente picante à pizza.' },
+    { id: 3, name: 'Quatro Queijos', img: 'images/pizza3.png', price: 17.45, sizes: ['320g', '530g', '860g'], description: 'Pizza para quem realmente é um amante de queijo, acompanha 4 tips de queijo.' },
+    { id: 4, name: 'Americana', img: 'images/pizza4.png', price: 19.77, sizes: ['320g', '530g', '860g'], description: 'Molho de tomate, mussarela e presunto. Um verdadeiro clássico. Essa opção traz a combinação de sabores que todo mundo ama e se lembra imediatamente quando pensa em pizza.' },
+    { id: 5, name: 'Sorvete', img: 'images/pizza5.png', price: 21.43, sizes: ['320g', '530g', '860g'], description: 'Pizza doce, acopanhada do sorvete a sua escolha.' },
+    { id: 6, name: 'Moda da Casa', img: 'images/pizza6.png', price: 18.55, sizes: ['320g', '530g', '860g'], description: 'Molho de Tomate, mussarela, calabresa, bacon, milho, cebola, orégano e azeitona.' },
+    { id: 7, name: 'Chocolate', img: 'images/pizza7.png', price: 22.36, sizes: ['320g', '530g', '860g'], description: 'Pizza doce, acopanhada de chocolate amargo.' }
 ];
