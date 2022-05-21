@@ -16,7 +16,7 @@ body {
 header {
     position: fixed;
     left:0;
-    top:750px;
+    top:0;
     right:0;
     height:60px;
     background-color:#399ade;
@@ -419,7 +419,6 @@ div > .contato {
 @media (max-width:1000px) {
     .pizza-area {
         grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width:840px) {
@@ -434,9 +433,9 @@ div > .contato {
     }
     header {
         display:flex;
-        /* background-color:#6ab1da; */
         background-color: none;
-        top: 815px;
+        top: 90%;
+
         background: transparent;
     }
     main {
