@@ -16,7 +16,7 @@ body {
 header {
     position: fixed;
     left:0;
-    top:0;
+    top:750px;
     right:0;
     height:60px;
     background-color:#399ade;
@@ -434,9 +434,13 @@ div > .contato {
     }
     header {
         display:flex;
+        /* background-color:#6ab1da; */
+        background-color: none;
+        top: 815px;
+        background: transparent;
     }
     main {
-        padding-top:60px;
+        padding-top:0px;
     }
 
     main > h1 {
@@ -451,8 +455,9 @@ div > .contato {
         padding:20px 0;
     }
 
-    .header {
-        display: none;
+    main .header > h1 {
+        display: block;
+        padding:45px;
     }
 
     aside {
