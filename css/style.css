@@ -92,7 +92,7 @@ main .header > h1{
     margin-bottom: 0;
 }
 
-.tel {
+p.tel {
     text-decoration: none;
     color: white;
 }
@@ -435,7 +435,6 @@ div > .contato {
         display:flex;
         background-color: none;
         top: 90%;
-
         background: transparent;
     }
     main {
