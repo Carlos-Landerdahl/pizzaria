@@ -171,5 +171,5 @@ function updateCart() {
         qs('aside').classList.remove('show');
         qs('aside').style.left = '100vw';
     }
-}
+};
 

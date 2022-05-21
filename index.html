@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Pizzaria do charlão</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="pages/pedidoFinal.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
 </head>
@@ -47,7 +48,7 @@
                 <h1>Contato</h1>
                 <p>Carloslanderdahl27@gmail.com</p>
                 <p>Uberlândia-MG </p>
-                <p>(34)99979-0919</p>
+                <p class="tel">(34)99979-0919</p>
             </div>
             <div class="social">
                 <h1>Redes Sociais</h1>
@@ -77,7 +78,12 @@
                     <span>Total</span>
                     <span>R$ --</span>
                 </div>
-                <div class="cart--finalizar">Finalizar a compra</div>
+                <div class="cart--finalizar">
+                    <button">
+                    <a class="botaoFinalizar" href="pages/pedidoFinal.html">Finalizar pedido</a>
+                    </button>
+
+                </div>
             </div>
         </div>
     </aside>
@@ -115,7 +121,7 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="pizzas.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/pizzas.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -92,6 +92,11 @@ main .header > h1{
     margin-bottom: 0;
 }
 
+.tel {
+    text-decoration: none;
+    color: white;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -394,8 +399,21 @@ div > .contato {
     border:2px solid #63f77c;
     transition: all ease .2s;
 }
+
+.cart--finalizar > a {
+    text-decoration: none;
+    color: white;
+}
+
 .cart--finalizar:hover {
     background-color:#35af4a;
+}
+
+.botaoFinalizar {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 @media (max-width:1000px) {
